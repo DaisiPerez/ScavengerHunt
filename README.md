@@ -31,9 +31,7 @@ https://youtu.be/diwugCQygtY
 
 ## Notes
 
-Making the Task Detail View Class was quite challenging, especially since Xcode can only run IOS 16 on my mac. During the troubleshooting process, I had to make a few adjustments due to the model. 
-After a few tweaks, it ran pretty smoothly! The only thing that I couldn't figure out was how to upload the exact pictures the tasks asked for. I attached pictures that were already in the gallery, as seen in the walkthrough.
-Although they werent the *exact* pictures the task requested- the app was still able to calibrate itself and find the exact location of the image, which was imperative to this project.
+Making the Task Detail View Class was quite challenging, especially since Xcode can only run IOS 16 on my mac. During the troubleshooting process, I had to make a few adjustments due to the model. After a few tweaks, it ran pretty smoothly! 
 
 ## License
 
