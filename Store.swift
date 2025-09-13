@@ -4,10 +4,10 @@ import Foundation
 @MainActor
 final class TaskStore: ObservableObject {
     @Published var tasks: [HuntTask] = [
-        HuntTask(title: "Blue bench", details: "Find a blue bench on campus and attach a photo."),
-        HuntTask(title: "Campus statue", details: "Snap the main statue and attach it."),
-        HuntTask(title: "Library entrance", details: "Attach a photo of the library doors."),
-        HuntTask(title: "Coffee spot", details: "Grab a pic of your favorite café corner.")
+        HuntTask(title: "Waterfall", details: "Find a waterfall and attach a photo of it."),
+        HuntTask(title: "Yellow Leaf", details: "Spot a yellow leaf and attach a photo of it."),
+        HuntTask(title: "Pink Flowers", details: "Attach a photo of pink flowers caught in the wild."),
+        HuntTask(title: "Yellow Flower", details: "Attach a photo of a yellow flower caught in the wild.")
     ]
 
     func binding(for task: HuntTask) -> Binding<HuntTask> {
